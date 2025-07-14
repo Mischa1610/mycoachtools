@@ -1,0 +1,21 @@
+{
+  "name": "@mycoachtools/slidev",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "build": "npx slidev build --base /mycoachtools/",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.0.0",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
